@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    padding-top: 100px;
+}
+
+#container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display:flex;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+header img {
+    width: 50px;
+    margin-right: 16px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+#campoNome {
+    width: 220px;
+    height: 28px;
+    margin-right: 16px;
+}
+
+#campoNumero {
+    width: 220px;
+    height: 28px;
+    margin-right: 12px;
+}
+
+form button {
+    border: 0;
+    width: 90px;
+    background-color: rgb(25, 255, 178);
+    height: 28px;
+}
+
+form button:hover {
+    width: 92px;
+    height: 30px;
+}
+
+table {
+    margin-top: 37px;
+    width: 59%;
+}
+
+table th {
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
